@@ -26,7 +26,7 @@ public class DiffieHellmanKeyGenerator {
     private final static BigInteger GENERATOR = new BigInteger("2");
 
     /**
-     * Returns a random 1568-bit integer that represents a private Diffie-Wellman key.
+     * Returns a random 1568-bit integer that represents a private Diffie-Hellman key.
      * @return  a random large integer
      */
     public static BigInteger generatePrivateKey() {
